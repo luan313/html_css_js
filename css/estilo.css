@@ -1,0 +1,127 @@
+body{
+    display: grid;
+    font-size: 0.8rem;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #333446;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    margin: auto auto;
+    align-items: center;
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #B8CFCE;
+}
+
+#titulo, #entradas, #saidas{
+    border: 3px solid #7F8CAA;
+    background: #EAEFEF;
+    border-radius: 15px;
+}
+
+#titulo{
+    display: flex;
+    grid-area: 1 / span 2;
+    margin-bottom: 0;
+    margin-top: 0;
+    justify-content: center;
+    padding: 8px;
+}
+
+#saidas{
+    width: 500px;
+    padding: 0.8em;
+    margin-left: 0;
+}
+
+#entradas{
+    width: 500px;
+    padding: 0.8em;
+
+}
+
+h2, input{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button{
+    margin-top: 10px;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+#resultado1{
+    display: flex;
+    border: 3px solid #333446;
+    padding-left: 10px;
+    border-radius: 20px;
+    height: 30px;
+    justify-content: start;
+    align-items: center;
+}
+
+#resultado2{
+    display: flex;
+    border: 3px solid #333446;
+    padding-left: 10px;
+    border-radius: 20px;
+    height: 30px;
+    justify-content: start;
+    align-items: center;
+}
+
+#resultado3{
+    display: flex;
+    border: 3px solid #333446;
+    padding-left: 10px;
+    border-radius: 20px;
+    height: 30px;
+    justify-content: start;
+    align-items: center;
+}
+
+#resultado4{
+    display: flex;
+    border: 3px solid #333446;
+    padding-left: 10px;
+    border-radius: 20px;
+    height: 30px;
+    justify-content: start;
+    align-items: center;
+}
+
+#entradas>input{
+    font-size: 1.2em;
+    display: flex;
+    border: 3px solid #333446;
+    padding-left: 10px;
+    border-radius: 20px;
+    height: 30px;
+    justify-content: start;
+    align-items: center;
+    background-color: #EAEFEF;
+    width: 480px;
+}
+
+#entradas>button{
+    font-size: 1.2em;
+    display: flex;
+    border: 3px solid #333446;
+    padding-left: 10px;
+    border-radius: 10px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAEFEF;
+}

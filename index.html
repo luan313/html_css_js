@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Métricas</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <main>
+
+        <h1 id="titulo">Cálculo de Métricas!</h1>
+
+        <section id="entradas">
+            <h2>Informe:</h2>
+            
+            <h3>Quantidade de Tarefas Executadas:</h3>
+            <input type="number" id="qtf" placeholder="Insira um valor">
+            <h3>Quantidade de Ciclos para início:</h3>
+            <input type="number" id="clatencia" placeholder="Insira um valor">
+            <h3>Quantidade de Ciclos por tarefa:</h3>
+            <input type="text" id="ctf" placeholder="Insira valores separados por vírgula">
+            <h3>Largura de banda (bits):</h3>
+            <input type="number" id="lb" placeholder="Insira um valor">
+            <h3>Frequência (GHz):</h3>
+            <input type="number" id="fghz" placeholder="Insira um valor">
+
+            <br>
+
+            <button onclick="catchProcessandShowValue()">Calcular</button>
+        </section>
+        
+        <section id="saidas">
+            <h2>Resultados:</h2>
+
+            <h3>Latência Total:</h3>
+            <p id="resultado1">Resultado: </p>
+
+            <h3>Taxa de Transferência:</h3>
+            <p id="resultado2">Resultado: </p>
+    
+            <h3>Tempo Cada Tarefa:</h3>
+            <p id="resultado3">Resultado: </p>
+
+            <h3>Tempo de Execução Total:</h3>
+            <p id="resultado4">Resultado: </p>
+
+                <script src="/js/script.js"></script>
+            </section>
+
+    </main>
+</body>
+</html>
